@@ -16,7 +16,7 @@ jobs:
 
       - name: Unzip project
         run: |
-          unzip -q 'VYDRO_Android_Cloud_Build(1).zip'
+          unzip -q 'VYDRO_Android_v2_1.zip'
           ls -la vydro_cloud_stage
 
       - name: Set up Java
